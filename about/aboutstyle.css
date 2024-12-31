@@ -1,0 +1,47 @@
+
+
+  .text-container {
+    color: #E8F0FF;
+    z-index: 1002;
+    font-size: 2em;
+    position: fixed;
+    top: 25%;
+    left: 25%; 
+    font-size: 20px;
+    width: 50%;
+    user-select: none;
+  }
+
+  .highlight {
+    color: #3F88C5;
+  }
+
+  .about-images {
+    position: fixed;
+    color: transparent;
+    z-index: 1003;
+    pointer-events: none;
+  }
+
+  .hummingbird {
+    position: inherit;
+    top: 90px;
+    right: 0px;
+    width: 400px;
+    transform: scaleX(-1);
+    max-width: 30%;
+  }
+
+  .poster {
+    position: inherit;
+    bottom: -60px;
+    left: -50px;
+    width: 600px; /* Adjust size as needed */
+    max-width: 30%;
+  }
+
+  .link {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+  }

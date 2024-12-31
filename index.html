@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/blob.css">
+<link rel="stylesheet" href="/fonts.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arthur Jakobsson</title>
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+  if (screen.width <= 699) {
+    location.replace("https://arthurjakobsson.github.io/");
+  }
+  $(function(){
+    $("#header").load("/header.html"); 
+    $("#footer").load("/footer.html"); 
+  });
+  </script> 
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <div class="container">
+    <div class="blobs">
+      <div class="blob a">a</div>
+      <div class="blob b">b</div>
+      <div class="blob c">c</div>
+    </div>
+  </div>
+
+  <div class="fixed-image-container">
+    <img src="assets/ArthurOnly.png" alt="Fixed Bottom Image" class="fixed-bottom-image" draggable="false">
+  </div>
+
+  <div class="fixed-image-container">
+    <img src="assets/LabelsOnly.png" alt="Labels Bottom Image" class="fixed-bottom-image" draggable="false">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+

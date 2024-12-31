@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Jakobsson</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/teaching/teachingblob.css">
+    <link rel="stylesheet" href="/fonts.css">
+    <link rel="stylesheet" href="/teaching/teachingstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="header" ></div>
+
+    <ul class="accordion cormorant-garamond-medium">
+        <li>
+            <input type="radio" name="accordion" id="first" checked>
+            <label for="first">Introduction</label>
+            <div class="content">
+                <p>
+                    
+                    Spearheaded the creation of supplementary instruction bootcamps built into course infrastructure.
+
+                    I realized there was a need for students to receive assistance with both conceptual and concrete skills; specifically debugging as well as memory and proofs were weakpoints for students. Liz Chu and I proposed the project and we have since fully developed and presented four bootcamps. We hope to observe improvement in these topics.
+                    
+                    More personally, these bootcamps made me realize that I really enjoy the development and the process of teaching! They spur me on to pursue a PhD and likely continue in academia afterwards.
+                    
+                    Below, I show examples of content from the bootcamps. The code for the examples is not made public, but I include some of the presentations that we have created. Each bootcamp typically has around 12 to 16 examples with a presentation, a resource document, and an examples instruction set as a reference for students.        
+                </p>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second">Debugging Fundementals</label>
+            <div  class="content" >
+                <p>
+                    Covered the core tools needed to become a successful programmer. Students were given practice to learn to use contracts, write good test cases and efficiently use print statements with targetted examples.
+                </p>
+                <embed  src="/assets/teaching/debugging_fundementals_presentation.pdf#scrollbar=0"/>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third">Memory & Pointers</label>
+            <div  class="content" >
+                <p>
+                    Discussed and provided practice for conceptual frameworks regarding memory and pointers in C.
+                </p>
+                <embed  src="/assets/teaching/memory_&_pointers_presentation.pdf#scrollbar=0"/>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="fourth">
+            <label for="fourth">Debugging Data Structures</label>
+            <div  class="content" >
+                <p>
+                    Discussed methods for debugging more complex structures and writing advanced test cases.
+                </p>
+                <embed  src="/assets/teaching/Debugging_Data_Structures.pdf#scrollbar=0"/>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="fifth">
+            <label for="fifth">Valgrind (memory)</label>
+            <div  class="content" >
+                <p>
+                    Re-introduced and offered examples of using valgrind as a memory management tool and how to efficiently understand and fix valgrind comments and errors.
+                </p>
+                <embed  src="/assets/teaching/valgrind_presentation.pdf#scrollbar=0"/>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="sixth">
+            <label for="sixth">Point-to Proofs</label>
+            <div  class="content" >
+                <p>
+                    Covered the basics of point-to proofs and how to use them to understand and debug code. As well as provided practice for understanding the details of the proofs.
+                </p>
+                <embed  src="/assets/teaching/Point-to-Proofs.pdf#scrollbar=0"/>
+            </div>
+        </li>
+        <!-- <li>
+            <input type="radio" name="accordion" id="seventh">
+            <label for="seventh">Debugging in C (Pilot)</label>
+            <div class="content" >
+                <p>
+                    Pilot bootcamp that served as an amalgamation of fundementals and memory tools. This bootcamp provided a great understanding of the difficulty of examples, engagement to expect and manner in which we presented information to be most useful. We revised both materials and examples following this bootcamp which was proven to give better experiences for students during the following semester. The code for this bootcamp is available on my repositories page.
+                </p>
+                <embed  src="/assets/teaching/C_debugging_presentation.pdf#scrollbar=0"/>
+            </div>
+        </li> -->
+    </ul>
+
+    <!-- <div class="container">
+        <div class="blobs">
+            <div class="blob a">a</div>
+            <div class="blob b">b</div>
+            <div class="blob c">c</div>
+        </div>
+    </div> -->
+
+
+</body>
+
+</html>

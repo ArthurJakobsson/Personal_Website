@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arthur Jakobsson</title>
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/about/aboutblob.css">
+<link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/about/aboutstyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script>
+  $(function(){
+    $("#header").load("/header.html"); 
+    $("#footer").load("/footer.html"); 
+  });
+</script>
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <div class="text-container cormorant-garamond-medium">
+    <p><span class="cormorant-garamond-medium-italic" style="font-size:30px">Birds, photography, and computer science.</span></p>
+    <p>I'm a senior at <span class="highlight">Carnegie Mellon University</span>, pursuing Statistics and Machine Learning with a minor in Computer Science. I am also pursuing a Honors Computer Science degree with my SCS Senior Thesis advised by Professor Jeff Ichnowski. I am interested in robotics, computer vision, and machine learning! I’m involved in research on understanding textile deformation with ML for use in manipulation. Previously, I worked on image segmentation in few-shot environments and ML-based robotics path planning. I have written two first author papers as part of Maxim Likhachev's SBPL Lab, more details about these can be found on my CV. I am planning on pursuing a PhD in Robotics and Machine Learning.</p>
+    <p>I enjoy teaching and have been a TA (and lead TA) for the computer science class <span class="highlight">15122 Principles of Imperative Computation</span> for four semesters. I discuss exciting changes to the course that I am leading development of in <a href="/teaching/" class="highlight link">teaching</a>.</p>
+    <p>I also love <span class="highlight">birdwatching, <a href="/photography" class=" highlight link">wildlife photography</a>, biking</span>, and <span class="highlight">badminton</span>.</p>
+  </div>
+
+  <div class="about-images">
+    <img src="/assets/Hummingbird.png" alt="Hummingbird" class="hummingbird" draggable="false">
+  </div>
+  <div class="about-images">
+    <img src="/assets/PresentationMOTM.png" alt="Poster" class="poster" draggable="false">
+  </div>
+
+  <div class="container">
+    <div class="blobs">
+      <div class="blob a">a</div>
+      <div class="blob b">b</div>
+      <div class="blob c">c</div>
+    </div>
+  </div>
+
+
+</body>
+</html>
